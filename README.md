@@ -26,7 +26,7 @@ pip install python-nmap
 
 Run the script from the terminal with the desired options:
 
-python Nmap_Python_script.py 192.168.1.1 192.168.1.2 -o '-T4 -F' --service-detect --version-detect -f scan_results.txt
+python Nmap_Python_Script.py 192.168.1.1 192.168.1.2 -o '-T4 -F' --service-detect --version-detect -f scan_results.txt
 
 
 Replace 192.168.1.1 and 192.168.1.2 with the target IP addresses you want to scan. You can provide as many IP addresses as needed. The script will display the open ports and their states for each target IP, along with detected service versions if available.
